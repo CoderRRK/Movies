@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
 
        url = "http://www.omdbapi.com/?apikey=21e39d79&s=Ring";
 
-        Log.d("AAA","" + getWord + "!");
+
 
         JsonObjectRequest request = new JsonObjectRequest(
                 Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
